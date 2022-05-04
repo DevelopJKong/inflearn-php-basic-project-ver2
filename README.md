@@ -12,3 +12,6 @@
 
 4. 55 - 인증 (Auth; Login, Logout), 유저 (User; Update)
    - login,logout & update를 학습하는 시간을 가졌습니다
+
+5. 56 - 게시글 (Post; Write) (1)
+   - ckeditor를 통해서 게시판을 만들어서 write 기능을 구현해보는 시간이였습니다
