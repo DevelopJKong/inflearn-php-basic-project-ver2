@@ -1,4 +1,4 @@
-#inflearn board 프로젝트😎
+# inflearn board 프로젝트😎
 
 1. 52 - 부트스트랩 (Bootstrap)<br>
    - 부트스트랩 만들기<br>
@@ -10,4 +10,5 @@
 3. 54 - 유저 (User; Register)
    - register_process에서 register를 할수있도록 만드는 코드를 작성하였습니다
 
-4. 
+4. 55 - 인증 (Auth; Login, Logout), 유저 (User; Update)
+   - login,logout & update를 학습하는 시간을 가졌습니다
