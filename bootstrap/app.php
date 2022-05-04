@@ -28,7 +28,7 @@ if(!$GLOBALS['DB_CONNECTION']){
 }
 
 register_shutdown_function(function () {
-    if(array_key_exists('DB_CONNECTION',$GLOBALS['DB_CONNECTION'])) {
+    if (array_key_exists('DB_CONNECTION', $GLOBALS) && $GLOBALS['DB_CONNECTION']) {
         mysqli_close($GLOBALS['DB_CONNECTION']);
     }
 });

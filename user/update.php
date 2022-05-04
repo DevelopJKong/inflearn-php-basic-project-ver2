@@ -1,10 +1,14 @@
 <?php
-if(array_key_exists('user',$_SESSION)) {
+require_once dirname(__DIR__).'/bootstrap/app.php';
+if (!array_key_exists('user', $_SESSION)) {
     return header('Location: /auth/login.php');
 }
-require_once dirname(__DIR__).'/bootstrap/app.php';
+
 $_SESSION['CSRF_TOKEN'] = bin2hex(random_bytes(32));
+output_add_rewrite_var('token', $_SESSION['CSRF_TOKEN']);
+
 $user = $_SESSION['user'];
+
 //output_add_rewrite_var('token',$_SESSION['CSRF_TOKEN']);
 ?>
 
