@@ -23,7 +23,7 @@
                             <li><a href="/user/write.php">Write</a></li>
                             <li><a href="/user/logout.php">Logout</a></li>
                         <?php else : ?>
-                            <li><a href="/user/login.php">Login</a></li>
+                            <li><a href="/auth/login.php">Login</a></li>
                         <?php endif; ?>
                     </ul>
                 </div>

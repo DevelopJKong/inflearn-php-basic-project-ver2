@@ -1,6 +1,6 @@
 <?php
 require_once "bootstrap/app.php";
-$_SESSION['user'] = '';
+
 ?>
 
 <?php require_once 'layouts/top.php' ?>

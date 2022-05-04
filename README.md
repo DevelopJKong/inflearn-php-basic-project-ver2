@@ -7,3 +7,7 @@
 2. 53 - 레이아웃 (Layouts)
    - 레이아웃을 만드는 법을 학습을 하였습니다 top과 bottom 나누었습니다
 
+3. 54 - 유저 (User; Register)
+   - register_process에서 register를 할수있도록 만드는 코드를 작성하였습니다
+
+4. 
