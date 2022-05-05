@@ -15,3 +15,6 @@
 
 5. 56 - 게시글 (Post; Write) (1)
    - ckeditor를 통해서 게시판을 만들어서 write 기능을 구현해보는 시간이였습니다
+
+6. 57 - 게시글 (Post; Index) (2)
+   - 모르는 api들이 꽤 많았던 수업이였습니다 mb_substr,strip_tag,array_merge,compact() 등등 조금 더 신경을 써야 할거 같습니다

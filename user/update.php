@@ -22,7 +22,6 @@ $user = $_SESSION['user'];
         <input type="submit" value="Submit" class="uk-button uk-button-default uk-width-1-1"/>
     </form>
 </div>
-
 <?php require_once dirname(__DIR__). '/layouts/bottom.php';?>
 
 

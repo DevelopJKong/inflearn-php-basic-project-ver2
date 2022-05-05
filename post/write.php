@@ -4,7 +4,8 @@ if (!array_key_exists('user', $_SESSION)) {
     return header('Location: /auth/login.php');
 }
 $_SESSION['CSRF_TOKEN'] = bin2hex(random_bytes(32));
-$user = $_SESSION['user'];
+output_add_rewrite_var('token', $_SESSION['CSRF_TOKEN']);
+
 //output_add_rewrite_var('token',$_SESSION['CSRF_TOKEN']);
 ?>
 
